@@ -1,0 +1,18 @@
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #52514e;
+    color: #ffffff;
+}
+
+.footer-details{
+    width: 400px;
+}
+
+.footer-about{
+    width: 400px;
+}

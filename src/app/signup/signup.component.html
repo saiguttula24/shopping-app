@@ -1,0 +1,14 @@
+<div class="signup-page">
+    <div class="signup-card">
+      <h1 class="account-signup-heading">Account Signup</h1>
+      <div class="form-card">
+        <input type="email" placeholder="Email" class="input"  [(ngModel)]="emailInput"/>
+        <p class="email-visibility">{{emailInput}}</p>
+        <input type="password" placeholder="Password" class="input" [(ngModel)]="passwordInput"/>
+        <p class="password-visibility">{{passwordInput}}</p>
+        <button class="signup-button">Signup</button>
+      </div>
+      <p class="login-matter">Already have an account <a class="login-route" routerLink="/login">Login</a></p>
+    </div>
+  </div>
+  
